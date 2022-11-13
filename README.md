@@ -1,0 +1,2 @@
+# GraphQL
+Simple GraphQL project 
