@@ -7,7 +7,7 @@ const schema = require('./Schema/schema');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://gql-vikram:vikram123@cluster0.rg4rq8g.mongodb.net/test');
+mongoose.connect('mongodb+srv://gql-vikram:vikram123@cluster0.rg4rq8g.mongodb.net/GQL');
 
 mongoose.connection.once('open', () => {
   console.log("connected to Database");
